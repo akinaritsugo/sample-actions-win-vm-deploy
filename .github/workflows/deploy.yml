@@ -1,9 +1,16 @@
 name: Azure VM Deploy
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
 on:
   workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
 env:
   NODEJS_VERSION: 12
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
