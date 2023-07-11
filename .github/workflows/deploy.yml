@@ -36,11 +36,10 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       - name: Transfer build files
-        uses:  appleboy/scp-action@0.1.4
+        uses:  appleboy/scp-action@v0.1.4
         with:
           host: ${{ secrets.AZURE_VM_IP }}
           username: ${{ secrets.AZURE_VM_USERNAME }}
           key: ${{ secrets.AZURE_VM_KEY }}
-          port: ${{ secrets.AZURE_VM_PORT }}
           source: "./"
           target: "/app"
