@@ -1,0 +1,22 @@
+{
+  "name": "sample-actions-win-vm-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinaritsugo/sample-actions-win-vm-deploy.git"
+  },
+  "author": "Akinari Tsugo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akinaritsugo/sample-actions-win-vm-deploy/issues"
+  },
+  "homepage": "https://github.com/akinaritsugo/sample-actions-win-vm-deploy#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
