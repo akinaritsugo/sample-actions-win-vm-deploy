@@ -41,5 +41,5 @@ jobs:
           host: ${{ secrets.AZURE_VM_IP }}
           username: ${{ secrets.AZURE_VM_USERNAME }}
           key: ${{ secrets.AZURE_VM_KEY }}
-          source: "./"
+          source: "./*"
           target: "/app"
